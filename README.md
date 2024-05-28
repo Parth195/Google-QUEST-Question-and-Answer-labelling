@@ -2,7 +2,8 @@
 
 
 
-**Description**
+##**Description**
+
 Computers are really good at answering questions with single, verifiable answers. But, humans are often still better at answering questions about opinions, recommendations, or personal experiences.
 
 Humans are better at addressing subjective questions that require a deeper, multidimensional understanding of context - something computers aren't trained to do well…yet.. Questions can take many forms - some have multi-sentence elaborations, others may be simple curiosity or a fully developed problem. They can have multiple intents, or seek advice and opinions. Some may be helpful and others interesting. Some are simple right or wrong.
@@ -19,10 +20,12 @@ Demonstrating these subjective labels can be predicted reliably can shine a new 
 
 
 
-Evaluation
+##**Evaluation**
+
+
 Submissions are evaluated on the mean column-wise Spearman's correlation coefficient. The Spearman's rank correlation is computed for each target column, and the mean of these values is calculated for the submission score.
 
-Submission File
+##**Submission File**
 For each qa_id in the test set, you must predict a probability for each target variable. The predictions should be in the range [0,1]. The file should contain a header and have the following format:
 
 qa_id,question_asker_intent_understanding,...,answer_well_written
@@ -33,7 +36,8 @@ etc.
 
 
 
-Notebooks Requirements
+##**Notebooks Requirements**
+
 Kerneler
 
 This is a Notebook-only competition
